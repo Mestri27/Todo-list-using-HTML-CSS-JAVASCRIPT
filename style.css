@@ -12,7 +12,7 @@
     /* border: 1px solid #111; */
     width: 500px;
     height: 70vh;
-    margin: 100px auto;
+    margin: 50px auto;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 20px;
 }
@@ -116,6 +116,15 @@ ul li span:hover {
 
 ::-webkit-scrollbar {
     display: none;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    margin: 10px auto;
 }
 
 @media screen and (max-width: 767px) {
